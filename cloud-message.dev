@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: 211.159.186.188
+    port: 5672
+    username: zcolder
+    password: zcf123123
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: message-input
+server:
+  port: 9002
